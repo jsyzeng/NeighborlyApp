@@ -10,9 +10,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python getPosts trigger function processed a request.')
 
     try:
-        url = "localhost"  # TODO: Update with appropriate MongoDB connection information
+        url = "mongodb://neighborly0cosmos4cct:SUpjxB0whIGl32u5704PZsPeoQXkQsSVuMfmHhVidSfYgx9l0tMmxhWNY1kMgLg65x6VWignRYrz1I82rzN0hA==@neighborly0cosmos4cct.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@neighborly0cosmos4cct@"  # TODO: Update with appropriate MongoDB connection information
         client = pymongo.MongoClient(url)
-        database = client['azure']
+        database = client['neighborly-db']
         collection = database['posts']
 
         result = collection.find({})

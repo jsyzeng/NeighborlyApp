@@ -242,3 +242,10 @@ RESOURCE_GROUP="<YOUR-RESOURCE-GROUP>"
 # run this command
 az group delete --name $RESOURCE_GROUP
 ```
+
+## Notes
+1. Original local.settings.json from Udacity github is in wrong place. It should be placed under /NeighborlyAPI
+2. Use Werkzeug==0.16.1 in /NeighborlyFrontEnd to solve relevant issues
+3. Need to deploy /NeighborlyAPI (back-end, server side) and /NeighborlyFrontEnd (front-end, client side) separately by its own.
+4. do "pip install -r requirements.txt" can help to remove many encountered errors during deployment
+

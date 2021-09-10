@@ -1,0 +1,463 @@
+{
+  "id": "/subscriptions/f7cbb085-9651-439f-887e-342f888ac6ce/resourceGroups/neighborly-app-rg",
+  "location": "southcentralus",
+  "managedBy": null,
+  "name": "neighborly-app-rg",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}
+{
+  "accessTier": "Hot",
+  "allowBlobPublicAccess": null,
+  "allowCrossTenantReplication": null,
+  "allowSharedKeyAccess": null,
+  "azureFilesIdentityBasedAuthentication": null,
+  "blobRestoreStatus": null,
+  "creationTime": "2021-09-09T21:13:05.922142+00:00",
+  "customDomain": null,
+  "enableHttpsTrafficOnly": true,
+  "enableNfsV3": null,
+  "encryption": {
+    "encryptionIdentity": null,
+    "keySource": "Microsoft.Storage",
+    "keyVaultProperties": null,
+    "requireInfrastructureEncryption": null,
+    "services": {
+      "blob": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2021-09-09T21:13:06.031469+00:00"
+      },
+      "file": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2021-09-09T21:13:06.031469+00:00"
+      },
+      "queue": null,
+      "table": null
+    }
+  },
+  "extendedLocation": null,
+  "failoverInProgress": null,
+  "geoReplicationStats": null,
+  "id": "/subscriptions/f7cbb085-9651-439f-887e-342f888ac6ce/resourceGroups/neighborly-app-rg/providers/Microsoft.Storage/storageAccounts/neighborlyappstg",
+  "identity": null,
+  "isHnsEnabled": null,
+  "keyCreationTime": {
+    "key1": "2021-09-09T21:13:06.015834+00:00",
+    "key2": "2021-09-09T21:13:06.015834+00:00"
+  },
+  "keyPolicy": null,
+  "kind": "StorageV2",
+  "largeFileSharesState": null,
+  "lastGeoFailoverTime": null,
+  "location": "southcentralus",
+  "minimumTlsVersion": null,
+  "name": "neighborlyappstg",
+  "networkRuleSet": {
+    "bypass": "AzureServices",
+    "defaultAction": "Allow",
+    "ipRules": [],
+    "resourceAccessRules": null,
+    "virtualNetworkRules": []
+  },
+  "primaryEndpoints": {
+    "blob": "https://neighborlyappstg.blob.core.windows.net/",
+    "dfs": "https://neighborlyappstg.dfs.core.windows.net/",
+    "file": "https://neighborlyappstg.file.core.windows.net/",
+    "internetEndpoints": null,
+    "microsoftEndpoints": null,
+    "queue": "https://neighborlyappstg.queue.core.windows.net/",
+    "table": "https://neighborlyappstg.table.core.windows.net/",
+    "web": "https://neighborlyappstg.z21.web.core.windows.net/"
+  },
+  "primaryLocation": "southcentralus",
+  "privateEndpointConnections": [],
+  "provisioningState": "Succeeded",
+  "resourceGroup": "neighborly-app-rg",
+  "routingPreference": null,
+  "sasPolicy": null,
+  "secondaryEndpoints": {
+    "blob": "https://neighborlyappstg-secondary.blob.core.windows.net/",
+    "dfs": "https://neighborlyappstg-secondary.dfs.core.windows.net/",
+    "file": null,
+    "internetEndpoints": null,
+    "microsoftEndpoints": null,
+    "queue": "https://neighborlyappstg-secondary.queue.core.windows.net/",
+    "table": "https://neighborlyappstg-secondary.table.core.windows.net/",
+    "web": "https://neighborlyappstg-secondary.z21.web.core.windows.net/"
+  },
+  "secondaryLocation": "northcentralus",
+  "sku": {
+    "name": "Standard_RAGRS",
+    "tier": "Standard"
+  },
+  "statusOfPrimary": "available",
+  "statusOfSecondary": "available",
+  "tags": {},
+  "type": "Microsoft.Storage/storageAccounts"
+}
+{
+  "availabilityState": "Normal",
+  "clientAffinityEnabled": false,
+  "clientCertEnabled": false,
+  "clientCertExclusionPaths": null,
+  "clientCertMode": "Required",
+  "cloningInfo": null,
+  "containerSize": 0,
+  "customDomainVerificationId": "27B0C02F841EA2BEC02845C96C3D604D3EA3216368E36D522B92DC2877AE67E2",
+  "dailyMemoryTimeQuota": 0,
+  "defaultHostName": "neighborly-func-app.azurewebsites.net",
+  "enabled": true,
+  "enabledHostNames": [
+    "neighborly-func-app.azurewebsites.net",
+    "neighborly-func-app.scm.azurewebsites.net"
+  ],
+  "hostNameSslStates": [
+    {
+      "hostType": "Standard",
+      "ipBasedSslResult": null,
+      "ipBasedSslState": "NotConfigured",
+      "name": "neighborly-func-app.azurewebsites.net",
+      "sslState": "Disabled",
+      "thumbprint": null,
+      "toUpdate": null,
+      "toUpdateIpBasedSsl": null,
+      "virtualIp": null
+    },
+    {
+      "hostType": "Repository",
+      "ipBasedSslResult": null,
+      "ipBasedSslState": "NotConfigured",
+      "name": "neighborly-func-app.scm.azurewebsites.net",
+      "sslState": "Disabled",
+      "thumbprint": null,
+      "toUpdate": null,
+      "toUpdateIpBasedSsl": null,
+      "virtualIp": null
+    }
+  ],
+  "hostNames": [
+    "neighborly-func-app.azurewebsites.net"
+  ],
+  "hostNamesDisabled": false,
+  "hostingEnvironmentProfile": null,
+  "httpsOnly": false,
+  "hyperV": false,
+  "id": "/subscriptions/f7cbb085-9651-439f-887e-342f888ac6ce/resourceGroups/neighborly-app-rg/providers/Microsoft.Web/sites/neighborly-func-app",
+  "identity": null,
+  "inProgressOperationId": null,
+  "isDefaultContainer": null,
+  "isXenon": false,
+  "kind": "functionapp,linux",
+  "lastModifiedTimeUtc": "2021-09-09T21:13:33.313333",
+  "location": "southcentralus",
+  "maxNumberOfWorkers": null,
+  "name": "neighborly-func-app",
+  "outboundIpAddresses": "13.84.227.164,52.171.221.149,52.171.217.1,52.171.217.147,52.171.219.120",
+  "possibleOutboundIpAddresses": "13.84.227.164,52.171.221.149,52.171.217.1,52.171.217.147,52.171.219.120,52.171.52.137,13.84.201.190",
+  "redundancyMode": "None",
+  "repositorySiteName": "neighborly-func-app",
+  "reserved": true,
+  "resourceGroup": "neighborly-app-rg",
+  "scmSiteAlsoStopped": false,
+  "serverFarmId": "/subscriptions/f7cbb085-9651-439f-887e-342f888ac6ce/resourceGroups/neighborly-app-rg/providers/Microsoft.Web/serverfarms/SouthCentralUSLinuxDynamicPlan",
+  "siteConfig": {
+    "acrUseManagedIdentityCreds": false,
+    "acrUserManagedIdentityID": null,
+    "alwaysOn": false,
+    "apiDefinition": null,
+    "apiManagementConfig": null,
+    "appCommandLine": null,
+    "appSettings": null,
+    "autoHealEnabled": null,
+    "autoHealRules": null,
+    "autoSwapSlotName": null,
+    "azureMonitorLogCategories": null,
+    "azureStorageAccounts": null,
+    "connectionStrings": null,
+    "cors": null,
+    "customAppPoolIdentityAdminState": null,
+    "customAppPoolIdentityTenantState": null,
+    "defaultDocuments": null,
+    "detailedErrorLoggingEnabled": null,
+    "documentRoot": null,
+    "experiments": null,
+    "fileChangeAuditEnabled": null,
+    "ftpsState": null,
+    "functionAppScaleLimit": 0,
+    "functionsRuntimeScaleMonitoringEnabled": null,
+    "handlerMappings": null,
+    "healthCheckPath": null,
+    "http20Enabled": false,
+    "httpLoggingEnabled": null,
+    "ipSecurityRestrictions": [
+      {
+        "action": "Allow",
+        "description": "Allow all access",
+        "headers": null,
+        "ipAddress": "Any",
+        "name": "Allow all",
+        "priority": 1,
+        "subnetMask": null,
+        "subnetTrafficTag": null,
+        "tag": null,
+        "vnetSubnetResourceId": null,
+        "vnetTrafficTag": null
+      }
+    ],
+    "javaContainer": null,
+    "javaContainerVersion": null,
+    "javaVersion": null,
+    "keyVaultReferenceIdentity": null,
+    "limits": null,
+    "linuxFxVersion": "",
+    "loadBalancing": null,
+    "localMySqlEnabled": null,
+    "logsDirectorySizeLimit": null,
+    "machineKey": null,
+    "managedPipelineMode": null,
+    "managedServiceIdentityId": null,
+    "metadata": null,
+    "minTlsVersion": null,
+    "minimumElasticInstanceCount": 0,
+    "netFrameworkVersion": null,
+    "nodeVersion": null,
+    "numberOfWorkers": 1,
+    "phpVersion": null,
+    "powerShellVersion": null,
+    "preWarmedInstanceCount": null,
+    "publicNetworkAccess": null,
+    "publishingPassword": null,
+    "publishingUsername": null,
+    "push": null,
+    "pythonVersion": null,
+    "remoteDebuggingEnabled": null,
+    "remoteDebuggingVersion": null,
+    "requestTracingEnabled": null,
+    "requestTracingExpirationTime": null,
+    "routingRules": null,
+    "runtimeADUser": null,
+    "runtimeADUserPassword": null,
+    "scmIpSecurityRestrictions": [
+      {
+        "action": "Allow",
+        "description": "Allow all access",
+        "headers": null,
+        "ipAddress": "Any",
+        "name": "Allow all",
+        "priority": 1,
+        "subnetMask": null,
+        "subnetTrafficTag": null,
+        "tag": null,
+        "vnetSubnetResourceId": null,
+        "vnetTrafficTag": null
+      }
+    ],
+    "scmIpSecurityRestrictionsUseMain": null,
+    "scmMinTlsVersion": null,
+    "scmType": null,
+    "tracingOptions": null,
+    "use32BitWorkerProcess": null,
+    "virtualApplications": null,
+    "vnetName": null,
+    "vnetPrivatePortsCount": null,
+    "vnetRouteAllEnabled": null,
+    "webSocketsEnabled": null,
+    "websiteTimeZone": null,
+    "winAuthAdminState": null,
+    "winAuthTenantState": null,
+    "windowsFxVersion": null,
+    "xManagedServiceIdentityId": null
+  },
+  "slotSwapStatus": null,
+  "state": "Running",
+  "suspendedTill": null,
+  "systemData": null,
+  "tags": null,
+  "targetSwapSlot": null,
+  "trafficManagerHostNames": null,
+  "type": "Microsoft.Web/sites",
+  "usageState": "Normal"
+}
+{
+  "analyticalStorageConfiguration": {
+    "schemaType": "FullFidelity"
+  },
+  "apiProperties": {
+    "serverVersion": "3.6"
+  },
+  "backupPolicy": {
+    "migrationState": null,
+    "periodicModeProperties": {
+      "backupIntervalInMinutes": 240,
+      "backupRetentionIntervalInHours": 8,
+      "backupStorageRedundancy": "Geo"
+    },
+    "type": "Periodic"
+  },
+  "capabilities": [
+    {
+      "name": "EnableMongo"
+    }
+  ],
+  "connectorOffer": null,
+  "consistencyPolicy": {
+    "defaultConsistencyLevel": "Eventual",
+    "maxIntervalInSeconds": 5,
+    "maxStalenessPrefix": 100
+  },
+  "cors": [],
+  "createMode": null,
+  "databaseAccountOfferType": "Standard",
+  "defaultIdentity": "FirstPartyIdentity",
+  "disableKeyBasedMetadataWriteAccess": false,
+  "disableLocalAuth": false,
+  "documentEndpoint": "https://neighborly0cosmos4cct.documents.azure.com:443/",
+  "enableAnalyticalStorage": false,
+  "enableAutomaticFailover": false,
+  "enableCassandraConnector": null,
+  "enableFreeTier": false,
+  "enableMultipleWriteLocations": false,
+  "failoverPolicies": [
+    {
+      "failoverPriority": 0,
+      "id": "neighborly0cosmos4cct-southcentralus",
+      "locationName": "South Central US"
+    }
+  ],
+  "id": "/subscriptions/f7cbb085-9651-439f-887e-342f888ac6ce/resourceGroups/neighborly-app-rg/providers/Microsoft.DocumentDB/databaseAccounts/neighborly0cosmos4cct",
+  "identity": {
+    "principalId": null,
+    "tenantId": null,
+    "type": "None",
+    "userAssignedIdentities": null
+  },
+  "instanceId": "e6d51d18-baa8-45ce-85dc-a3dfd9b57a80",
+  "ipRules": [],
+  "isVirtualNetworkFilterEnabled": false,
+  "keyVaultKeyUri": null,
+  "kind": "MongoDB",
+  "location": "South Central US",
+  "locations": [
+    {
+      "documentEndpoint": "https://neighborly0cosmos4cct-southcentralus.documents.azure.com:443/",
+      "failoverPriority": 0,
+      "id": "neighborly0cosmos4cct-southcentralus",
+      "isZoneRedundant": false,
+      "locationName": "South Central US",
+      "provisioningState": "Succeeded"
+    }
+  ],
+  "name": "neighborly0cosmos4cct",
+  "networkAclBypass": "None",
+  "networkAclBypassResourceIds": [],
+  "privateEndpointConnections": null,
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": "Enabled",
+  "readLocations": [
+    {
+      "documentEndpoint": "https://neighborly0cosmos4cct-southcentralus.documents.azure.com:443/",
+      "failoverPriority": 0,
+      "id": "neighborly0cosmos4cct-southcentralus",
+      "isZoneRedundant": false,
+      "locationName": "South Central US",
+      "provisioningState": "Succeeded"
+    }
+  ],
+  "resourceGroup": "neighborly-app-rg",
+  "restoreParameters": null,
+  "systemData": {
+    "createdAt": "2021-09-09T21:17:21.741131+00:00",
+    "createdBy": null,
+    "createdByType": null,
+    "lastModifiedAt": null,
+    "lastModifiedBy": null,
+    "lastModifiedByType": null
+  },
+  "tags": {},
+  "type": "Microsoft.DocumentDB/databaseAccounts",
+  "virtualNetworkRules": [],
+  "writeLocations": [
+    {
+      "documentEndpoint": "https://neighborly0cosmos4cct-southcentralus.documents.azure.com:443/",
+      "failoverPriority": 0,
+      "id": "neighborly0cosmos4cct-southcentralus",
+      "isZoneRedundant": false,
+      "locationName": "South Central US",
+      "provisioningState": "Succeeded"
+    }
+  ]
+}
+{
+  "id": "/subscriptions/f7cbb085-9651-439f-887e-342f888ac6ce/resourceGroups/neighborly-app-rg/providers/Microsoft.DocumentDB/databaseAccounts/neighborly0cosmos4cct/mongodbDatabases/neighborly-db",
+  "location": null,
+  "name": "neighborly-db",
+  "options": null,
+  "resource": {
+    "etag": null,
+    "id": "neighborly-db",
+    "rid": null,
+    "ts": null
+  },
+  "resourceGroup": "neighborly-app-rg",
+  "tags": null,
+  "type": "Microsoft.DocumentDB/databaseAccounts/mongodbDatabases"
+}
+{
+  "id": "/subscriptions/f7cbb085-9651-439f-887e-342f888ac6ce/resourceGroups/neighborly-app-rg/providers/Microsoft.DocumentDB/databaseAccounts/neighborly0cosmos4cct/mongodbDatabases/neighborly-db/collections/advertisements",
+  "location": null,
+  "name": "advertisements",
+  "options": null,
+  "resource": {
+    "analyticalStorageTtl": null,
+    "etag": null,
+    "id": "advertisements",
+    "indexes": [
+      {
+        "key": {
+          "keys": [
+            "_id"
+          ]
+        },
+        "options": null
+      }
+    ],
+    "rid": null,
+    "shardKey": null,
+    "ts": null
+  },
+  "resourceGroup": "neighborly-app-rg",
+  "tags": null,
+  "type": "Microsoft.DocumentDB/databaseAccounts/mongodbDatabases/collections"
+}
+{
+  "id": "/subscriptions/f7cbb085-9651-439f-887e-342f888ac6ce/resourceGroups/neighborly-app-rg/providers/Microsoft.DocumentDB/databaseAccounts/neighborly0cosmos4cct/mongodbDatabases/neighborly-db/collections/posts",
+  "location": null,
+  "name": "posts",
+  "options": null,
+  "resource": {
+    "analyticalStorageTtl": null,
+    "etag": null,
+    "id": "posts",
+    "indexes": [
+      {
+        "key": {
+          "keys": [
+            "_id"
+          ]
+        },
+        "options": null
+      }
+    ],
+    "rid": null,
+    "shardKey": null,
+    "ts": null
+  },
+  "resourceGroup": "neighborly-app-rg",
+  "tags": null,
+  "type": "Microsoft.DocumentDB/databaseAccounts/mongodbDatabases/collections"
+}

@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="E:\WEB\Flask\Azure_function\venv"
+VIRTUAL_ENV="C:\Users\jzeng\Documents\Study\Udacity\07_nd_Neighborly\NeighborlyFrontEnd\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
