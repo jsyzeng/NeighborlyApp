@@ -250,7 +250,10 @@ func azure functionapp fetch-app-settings $FUNCTION_APP_NAME # to copy from Azur
 func azure functionapp publish $FUNCTION_APP_NAME --publish-settings-only # to copy from local to Azure
 ```
 Remember to set **"IsEncrypted": false** in ```local.settings.json``` before syncing.
+
 2. Use Werkzeug==0.16.1 in /NeighborlyFrontEnd to solve relevant issues
+
 3. Need to deploy /NeighborlyAPI (back-end, server side) and /NeighborlyFrontEnd (front-end, client side) separately by its own.
+
 4. do "pip install -r requirements.txt" can help to remove many encountered errors during deployment
 
