@@ -244,7 +244,12 @@ az group delete --name $RESOURCE_GROUP
 ```
 
 ## Notes
-1. Original local.settings.json from Udacity github is in wrong place. It should be placed under /NeighborlyAPI
+1. Original local.settings.json from Udacity github is in wrong place. It should be placed under /NeighborlyAPI. We can sync settings between local and Azure with Func CLI:
+```
+func azure functionapp fetch-app-settings $FUNCTION_APP_NAME # to copy from Azure to local
+func azure functionapp publish $FUNCTION_APP_NAME --publish-settings-only # to copy from local to Azure
+```
+Remember to set **"IsEncrypted": false** in ```local.settings.json``` before syncing.
 2. Use Werkzeug==0.16.1 in /NeighborlyFrontEnd to solve relevant issues
 3. Need to deploy /NeighborlyAPI (back-end, server side) and /NeighborlyFrontEnd (front-end, client side) separately by its own.
 4. do "pip install -r requirements.txt" can help to remove many encountered errors during deployment
