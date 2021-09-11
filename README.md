@@ -244,12 +244,11 @@ az group delete --name $RESOURCE_GROUP
 ```
 
 ## Notes
-1. Original local.settings.json from Udacity github is in wrong place. It should be placed under /NeighborlyAPI. We can sync settings between local and Azure with Func CLI:
+1. Original local.settings.json from Udacity github is in wrong place. It should be placed under /NeighborlyAPI. We can sync settings between local and Azure with Func CLI as below, but remember to set **"IsEncrypted": false** in ```local.settings.json``` before syncing.
 ```
 func azure functionapp fetch-app-settings $FUNCTION_APP_NAME # to copy from Azure to local
 func azure functionapp publish $FUNCTION_APP_NAME --publish-settings-only # to copy from local to Azure
 ```
-Remember to set **"IsEncrypted": false** in ```local.settings.json``` before syncing.
 
 2. Use Werkzeug==0.16.1 in /NeighborlyFrontEnd to solve relevant issues
 
